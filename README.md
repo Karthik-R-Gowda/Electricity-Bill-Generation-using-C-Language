@@ -47,7 +47,7 @@ The Information of Energy charges will be explained by the below table:
 | For first 50 Units.(0-50) | 4.10 |
 | For Next 50 units.(51-100) | 5.55 |
 | For next 100 units.(101-200) | 7.10  |
-| For Next further consumed units  | 8.15  |
+| For Next further consumed units.(201-∞) | 8.15  |
 
 Let us understand it with an example. let the units consumed is 350. The entire units is divided into 4 parts as mentioned in the table.
 - First - 50*4.10 = 205
