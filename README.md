@@ -38,5 +38,16 @@ The previous matter reading and present metre reading will be taken as input by 
 It should be noted that present metre reading should always be greater than that of previous metre reading.
 
 ## Fixed charges
+The fixed charges depends on the units consumed by the customes. If the units consumed is less than 50 then Rs 85 is concidered as Fixed charge and if the units consumed is 50 or more then Rs 100 is taken as Fixed Charge. it should be noted that even if the units consumed is 0, the fixed charges will be applied.
+
+## Energy charges
+The Information of Energy charges will be explained by the below table:
+| Units Consumed             | Fixed rate |
+| -------------------------- | ------------- |
+| For first 50 Units.(0-50) | 4.10 |
+| For Next 50 units.(51-100) | 5.55 |
+| For next 100 units.(101-200) | 7.10  |
+| For Next further consumed units  | 8.15  |
+
 
 
