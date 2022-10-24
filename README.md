@@ -49,5 +49,52 @@ The Information of Energy charges will be explained by the below table:
 | For next 100 units.(101-200) | 7.10  |
 | For Next further consumed units  | 8.15  |
 
+Let us understand it with an example. let the units consumed is 350. The entire units is divided into 4 parts as mentioned in the table.
+- First - 50*4.10 = 205
+- Second - 50*5.55 = 277.5
+- Thirdly - 100*7.1 = 710
+- Forthly - 150*8.15 = 1222.5
+- Total Energy charges = 205+277.5+710+1222.5 = 2415
 
+if the amount of units consumed is 125, then it is divided into 3 parts.
+- First - 50*4.10 = 205
+- Second - 50*5.55 = 277.5
+- Thirdly - 25*7.1 = 177.5
+- Total Energy charges = 205+277.5+177.5 = 660
 
+## FAC charges 
+FAC Charge is calculated as the product of Number of units consumed and the constant 0.19.
+if total units consumed is 350 units then FAC charge will be:
+- FAC = 350*0.19 = 66.5
+
+## Additional charges
+
+The additional charges are further classified into 
+- Solar rebate 
+- Interest 
+- Arrears 
+- Tax 
+- Bill amount and 
+- Others
+
+### Solar rebate
+Solar utilization is an optional parameter which is asked to the user. If user select No For solar utilization then the solar utilization amount becomes 0 and nothing will be deducted from bill amount and if the user select yes for the solar utilization then a subsidy of 0.5 Rs per unit will be deducted from the bill amount to a maximum of 50 Rs per bill.
+
+### Intrests
+Intrests is applied only if the arrear is present. a Intrest of 5% is apllied on the Arrear amount.
+
+### Arrear
+It is the Amount needs to be paid in case of any left unpaid money from the previous bills. its input is taken by the user.
+
+### Tax 
+A tax of 5% is applied on the Bill Amount.
+
+### Bill Amount 
+It is the sum of Fixed charges, Total Energy charges and FAC charges.
+
+###Others
+It is an optional charges applied on specific cases only.
+
+## The total net amount
+It is the total amount Required to be paid by the customer. it is given by the formula:
+* Total Net Amount = (Bill Amount + Tax + Arrears(if any) + Intrests(if any) ) - Solar Rebate 
