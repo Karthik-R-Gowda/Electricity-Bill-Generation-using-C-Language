@@ -95,6 +95,6 @@ It is the sum of Fixed charges, Total Energy charges and FAC charges.
 ###Others
 It is an optional charges applied on specific cases only.
 
-## The total net amount
+## The Total net amount
 It is the total amount Required to be paid by the customer. it is given by the formula:
 * Total Net Amount = (Bill Amount + Tax + Arrears(if any) + Intrests(if any) ) - Solar Rebate 
