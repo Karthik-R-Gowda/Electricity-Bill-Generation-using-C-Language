@@ -92,7 +92,7 @@ A tax of 5% is applied on the Bill Amount.
 ### Bill Amount 
 It is the sum of Fixed charges, Total Energy charges and FAC charges.
 
-###Others
+### Others
 It is an optional charges applied on specific cases only.
 
 ## The Total net amount
